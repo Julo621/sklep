@@ -7,7 +7,7 @@ function Zdjecie(props) {
     <div>
       <img src={`assets/${filename}`} alt={alt} />
       <h3>Cena: {price}</h3>
-      <h4>Opis: {desc}</h4>
+      <p>Opis: {desc}</p>
     </div>
   );
 }
