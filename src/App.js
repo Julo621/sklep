@@ -38,7 +38,8 @@ function App() {
   
   return (
     <div>
-      <h1>Kategorie zdjęć</h1>
+      <h2>Kontakt: kubusiowa@poczta.fm</h2>
+      <h3>Kategorie</h3>
       <div className="vertical">
         <div className="form-check form-switch" style={{marginRight: 15 + 'px'}}>
           <input className="form-check-input" type="checkbox" id="cbox1" checked={showKwiaty} onChange={handleKwiatyChange}/>
